@@ -2,7 +2,7 @@
   <html lang="en">
   <head>
     <title>SpendSmart</title>
-    <link rel="stylesheet" href="report-style.css" />
+    <link rel="stylesheet" href="css/report-style.css" />
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet" />
