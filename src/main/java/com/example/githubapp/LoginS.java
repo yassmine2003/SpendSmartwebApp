@@ -46,7 +46,7 @@ public class LoginS extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
             request.setAttribute("error", "An error occurred while processing your request.");
-            request.getRequestDispatcher("home.jsp").forward(request, response);//change it to the index.jsp before submiting to github
+            request.getRequestDispatcher("index.jsp").forward(request, response);
         } finally {
             try {
                 if (con != null) {
