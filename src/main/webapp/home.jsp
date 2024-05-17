@@ -1,4 +1,4 @@
-<span style="font-family: verdana, geneva, sans-serif;"><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Job Dashboard | By Code Info</title>
@@ -94,4 +94,4 @@
       </table>
 
 </body>
-</html></span>
+</html>
