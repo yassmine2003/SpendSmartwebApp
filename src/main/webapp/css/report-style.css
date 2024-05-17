@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(233, 233, 233);
+}
+
+.container {
+  display: flex;
+  width: 1500px;
+  margin: 0px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 350px;
+  height: 110vh;
+  background: #fff;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.logo h1 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+li {
+  padding-bottom: 2rem;
+}
+
+li a {
+  font-size: 16px;
+  color: rgb(85, 83, 83);
+}
+
+.nav-item {}
+
+nav i {
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* Main Section */
+.main {
+  width: 100%;
+}
+
+.main-top {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+}
+
+.main-body {
+  padding: 10px 10px 10px 20px;
+}
+
+h1 {
+  margin: 20px 10px;
+}
+
+.search_bar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.search_bar label {
+  margin-bottom: 5px;
+}
+.search_bar button {
+  width: 15%;
+  padding: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  margin-bottom: 5px;
+  border-radius: 2%;
+}
+
+.search_bar input,
+.search_bar select {
+  width: 30%;
+  padding: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  margin-bottom: 5px;
+  border-radius: 2%;
+}
+
+.search_bar input:focus,
+.search_bar select:focus,
+.search_bar button:focus {
+  border: 1px solid blueviolet;
+}
+
+.search_bar button {
+  background-color: rgb(85, 161, 223); /* Green */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search_bar button:hover {
+  background-color: #64a4c2;
+}
+
+.tags_bar {
+  width: 55%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.tag {
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.tag i {
+  margin-right: 0.7rem;
+}
+
+.row {
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+
+.row p {
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+
+.row p span {
+  color: blueviolet;
+}
+
+button {
+  margin-right: 30px;
+}
+.calendar-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
